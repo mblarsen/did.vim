@@ -3,4 +3,4 @@ syntax match didObject "\v(^| )\@\S+"
 syntax match didTag "\v(^| )#\S+"
 highlight link didKeyword Keyword
 highlight link didObject Function
-highlight link didTag Function
+highlight link didTag Operator
