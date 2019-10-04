@@ -3,4 +3,4 @@ syntax match didObject "\v(^| )\@[A-Za-z0-9_]+"
 syntax match didTag "\v(^| )#[A-Za-z0-9_]+"
 highlight link didKeyword Keyword
 highlight link didObject Function
-highlight link didTag Operator
+highlight link didTag markdownCode
